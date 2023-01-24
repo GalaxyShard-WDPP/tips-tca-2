@@ -1,0 +1,23 @@
+body {
+    margin:0;
+
+    background-color: orange;
+    font-size:1.2rem;
+}
+.container {
+    max-width:800px;
+    width:80%;
+    margin:10px auto auto auto;
+    background-color: white;
+    padding:10px;
+    border-radius:5px;
+
+}
+button {
+    margin:auto;
+    display:block;
+
+}
+.container > div {
+    margin:10px 0 10px 0;
+}
