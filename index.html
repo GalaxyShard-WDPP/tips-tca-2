@@ -12,13 +12,25 @@
 <body>
     <div class="container">
         <div>
-            How many people are in your party?
-            <input type="number" placeholder="Enter number" name="" id="party-size">
+            How many people are in your party?<br>
+            <input type="number" placeholder="Enter size of party" name="party-size" id="party-size">
         </div>
         <div>
-            What is the subtotal? <input type="number" name="" id="subtotal">
+            What is the cost?<br>
+            <input type="number" placeholder="Enter cost" name="cost" id="cost">
+        </div>
+        <div>
+            How was the service quality?<br>
+            <select name="service-quality" id="service-quality">
+                <option value="great">Great</option>
+                <option value="good">Good</option>
+                <option value="terrible">Terrible</option>
+            </select>
+            <span id="tip-percent">0%</span> tip
+        </div>
+        <div>
+            $<span id="output">0</span> per person
         </div>
     </div>
-    <button>Calculate Tip</button>
 </body>
 </html>

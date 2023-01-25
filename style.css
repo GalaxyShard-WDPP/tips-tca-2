@@ -7,11 +7,12 @@ body {
 .container {
     max-width:800px;
     width:80%;
-    margin:10px auto auto auto;
+    margin:20px auto auto auto;
     background-color: white;
     padding:10px;
     border-radius:5px;
 
+    text-align:center;
 }
 button {
     margin:auto;
@@ -19,5 +20,5 @@ button {
 
 }
 .container > div {
-    margin:10px 0 10px 0;
+    margin:15px 0 15px 0;
 }
